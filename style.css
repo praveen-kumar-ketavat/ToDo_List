@@ -118,13 +118,23 @@ ul li span:hover{
     button{
         padding-left: 20px;
         padding-right: 15px;
+        padding-top:10px;
+        padding:10px 15px auto 20px;
+        height:40px;
     }
     ul li{
         font-size:18px;
     }
 }
-@media only screen and (max-width:330px){
-    .container{
-        background: #fc8567;
+@media only screen and (min-width:530px) and (max-width:650px){
+    .todo-app{
+        width:470px;
+        margin-top:40px;
+    }
+}
+@media only screen and (min-width:430px) and (max-width:530px){
+    .todo-app{
+        width:330px;
+        margin-top:40px;
     }
 }
