@@ -64,6 +64,8 @@ ul li{
     margin-bottom:2px;
     border-radius: 10px;
     background-color: #edeef0;
+    display: flex;
+    justify-content: space-between;
 }
 ul li::before{
     content:'';
@@ -101,6 +103,17 @@ ul li span:hover{
     background: #edeef0;
 }
 
+ul li button{
+    margin-right: 30px;
+    height:20px;
+    width:40px;
+    padding:0;
+    background: none;
+    color:black;
+    border:0.5px white solid;
+
+
+}
 @media only screen and (max-width:430px){
     .container{
         padding: none;
